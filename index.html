@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</head>
+<body>
+    <section class='h-100-min bg'>
+        <div id="mySidenav" class="pm text-center sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#scheme" class='link block-1'>Кратко</a>
+          <a href="#work" class='link block-2'>Принцип работы</a>
+          <a href="#cooperation" class='link block-3'>Взаимодействие</a>
+          <a href="#places" class='link block-4'>Места использования</a>
+          <a href="#advantages" class='link block-5'>Преимущества</a>
+          <a href="#introduction" class='link block-6'>Внедрение</a>
+          <a href="#contacts" class='link block-7'>Заказать</a>
+        </div>
+        <nav class="navbar navbar-expand-xl navbar-light bg-transparent pt-3 container">
+          <img width='45px' src="logo.png" alt="">
+          <a class="navbar-brand font-weight-bold ssp" href="#">controff</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span onclick="openNav()" class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-none d-xl-block ml-auto">
+            <div class="navbar-nav ssp">
+                <a class='link mx-3 py-2' href="#work">Принцип работы</a>
+                <a class='link mx-3 py-2' href="#cooperation">Взаимодействие</a>
+                <a class='link mx-3 py-2' href="#places">Места использования</a>
+                <a class='link mx-3 py-2' href="#advantages">Преимущества</a>
+                <a class='link mx-3 py-2' href="#introduction">Внедрение</a>
+                <a class="mx-3 mx-lg-4 py-2 font-weight-bold border-company" href="#contacts">Заказать</a>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="container mx-auto row h-75-min d-flex mt-5 px-5">
+            <div class='col-12 text-center text-lg-left col-lg-8 align-self-center'>
+                <h5 class='ml-lg-4 company-text pm opacity'>Система контроля и управления доступом</h5>
+                <h1 class="ssp company-title font-weight-bold">СКУД</h1>
+            </div>
+            <div class="col-12 mt-5 mt-lg-0 col-lg-4 text-center align-self-center">
+                <img width='350px' class='company-image' src="logo.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id='scheme' class='h-100-min bg-s1 py-4 d-flex'>
+        <div class="container align-self-center">
+            <p class='col-12 col-lg-6 text-s1'><span class='font-weight-bold'>Только представьте, </span> все системы контроля доступа: турникеты, шлагбаумы, дверные замки, собраны воедино. <span class='font-weight-bold'>Управляются с помощью 1C.</span></p>
+            <div class=' text-center'>
+                <img class='img-fluid' width='1000px' src="1с.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section id='work' class="h-100-min bg-s2 py-4 d-flex">
+        <div class="container align-self-center">
+            <h1 class='ssp mb-5 font-weight-bold'>Как это работает?</h1>
+            <div class="row hw-box mx-0 mt-5">
+                <div class="col-12 col-lg"><span class="font-weight-bold">Передача данных в 1С.</span> Контроллер передает данные в 1С через интернет.</div>
+                <div class='arrow mx-auto mx-lg-2 align-self-center'>
+                    <img class='d-none d-lg-block' height='45px' src="https://img.icons8.com/material/96/000000/right.png">
+                    <img class='d-block my-2 my-lg-0 d-lg-none' height='45px' src="https://img.icons8.com/material/96/000000/down.png">
+                </div>
+                <div class="col-12 col-lg"><span class="font-weight-bold">Анализ полученных данных.</span> Вы можете сохранить данные в регистры 1С, сформировать табель учета рабочего времени или выполнить любой другой бизнес-процесс.</div>
+                <div class="arrow mx-auto mx-lg-2 align-self-center">
+                    <img class='d-none d-lg-block' height='45px' src="https://img.icons8.com/material/96/000000/right.png">
+                    <img class='d-block my-2 my-lg-0 d-lg-none' height='45px' src="https://img.icons8.com/material/96/000000/down.png">
+                </div>
+                <div class="col-12 col-lg"><span class="font-weight-bold">1С передает задание контроллеру.</span> После анализа данных 1С передает задание контроллеру на открытие/закрытие турникета (шлагбаума или другого устройства). Также есть возможность отправлять задание контроллеру после нажатия кнопки в 1С.</div>
+            </div>
+        </div>
+    </section>
+    <section id='cooperation' class="h-100-min bg-s3 py-4 d-flex">
+        <div class="container align-self-center">
+            <h1 class='ssp mb-5 font-weight-bold'>Взаимодействие</h1>
+            <div class="row text-center mx-0 mt-5">
+                <div class='col-12 col-lg'>
+                    <img class='img-el mt-2' height="380px" src="term.png" alt="">
+                </div>
+                <div class='col-12 my-5 my-lg-0 col-lg'>
+                    <img class='img-el mt-2' height="380px" src="turn.png" alt="">
+                </div>
+                <div class='col-12 col-lg'>
+                    <img class='img-el mt-2' height="380px" src="door.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='places' class="h-100-min bg-s4 py-4 d-flex">
+        <div class="container align-self-center">
+            <h1 class='ssp mb-5 font-weight-bold'>Места использования</h1>
+            <div class="pm row text-center mx-0 mt-5">
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/e74c3c/hangar.png">
+                    <h5 class='font-weight-bold mt-3'>Складские помещения</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/support.png">
+                    <h5 class='font-weight-bold mt-3'>Автомагазины и автосервисы</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/building.png">
+                    <h5 class='font-weight-bold mt-3'>Проходные предприятия</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/parking.png">
+                    <h5 class='font-weight-bold mt-3'>Парковки</h5>
+                </div>
+                <div class="w-100 my-0 my-lg-5"></div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/5-star-hotel.png">
+                    <h5 class='font-weight-bold mt-3'>Отели</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/bench-press.png">
+                    <h5 class='font-weight-bold mt-3'>Спортклубы</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/skiing.png">
+                    <h5 class='font-weight-bold mt-3'>Горнолыжные комплексы</h5>
+                </div>
+                <div class="col-12 col-lg my-3 my-lg-0">
+                    <img width="120px" height="120px" src="https://img.icons8.com/color/250/000000/swimming-pool.png">
+                    <h5 class='font-weight-bold mt-3'>Бассейны</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='advantages' class="h-100-min bg-s5 py-4 d-flex">
+        <div class="container align-self-center">
+            <h1 class='ssp mb-5 font-weight-bold'>Преимущества</h1>
+            <div class="ssp mx-0 text-center hw-box row">
+                <div class="col-12 my-2 my-lg-0 mr-lg-2 col-lg">
+                    <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/control-panel.png">
+                    <hr>
+                    <p>Полный контроль над всеми системами вашего комплекса</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                    <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/bullish.png">
+                    <hr>
+                    <p>Повышение привлекательности ваших услуг</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                    <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/omnichannel.png">
+                    <hr>
+                    <p>Анализ ценных статистических данных</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                    <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/ruble.png">
+                    <hr>
+                    <p>Экономия средств и ресурсов</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 ml-lg-2 col-lg">
+                    <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/settings.png">
+                    <hr>
+                    <p>Эффективность работы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='introduction' class="h-100-min bg-s6 py-4 d-flex">
+        <div class="container align-self-center">
+            <h1 class='ssp font-weight-bold'>Внедрение</h1>
+            <small class="ssp opacity">Расширение СКУД может работать с любой конфигурацией 1С</small>
+            <div class="mt-5 ssp i-box row text-center">
+                <div class="col-12 my-2 my-lg-0 col-lg">
+                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/buy.png">
+                    <h4 class="mt-4 font-weight-bold">Приобрести</h4>
+                    <p class='mt-3 opacity'>расширение СКУД для вашей программы 1С</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 col-lg">
+                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/available-updates.png">
+                    <h4 class="mt-4 font-weight-bold">Модернизировать</h4>
+                    <p class='mt-3 opacity'>существующее оборудование вашего комплекса или приобрести новое</p>
+                </div>
+                <div class="col-12 my-2 my-lg-0 col-lg">
+                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/settings.png">
+                    <h4 class="mt-4 font-weight-bold">Настроить</h4>
+                    <p class='mt-3 opacity'>взаимодействие вашей 1С + СКУД с оборудованием</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id='contacts' class="h-100-min bg-s7 py-4 d-flex">
+        <div class="container align-self-center">
+            <div class="h-55-min row contact-block mx-4 bg-light">
+                <div class="col-12 col-md-6 px-0 my-0 my-md-5">
+                    <img src="contacts-bg.png" class='img-fluid' alt="">
+                </div>
+                <div class="col-12 col-md-6 py-5 text-center text-md-left px-0 ssp my-4 my-md-5">
+                    <h4 class='font-weight-bold'>Свяжитесь с нами</h4>
+                    <input id='name' style="font-family:Source Sans Pro, FontAwesome" placeholder=" &#xf007;  Имя" class='w-90 p-2 px-2 mt-3' type="text">
+                    <input id='email' style="font-family:Source Sans Pro, FontAwesome" placeholder=" &#xf0e0;  Электронная почта" class='w-90 p-2 px-2 my-3' type="text">
+                    <textarea id='message' placeholder=" Сообщение..." class='w-90 p-2 px-2' type="text"></textarea>
+                    <div class='text-center'>
+                        <a href="" class='w-90 py-2 font-weight-bold submit-btn'>Отправить</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src='script.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
