@@ -137,6 +137,10 @@ img {
     font-family: Source Sans Pro;
 }
 
+.fw-600, .fw-600 h5 {
+    font-weight: 600;
+}
+
 .navbar-toggler-icon {
     border: 0 !important;
 }
@@ -268,7 +272,7 @@ nav div a:hover {
     }
     
     .img-el {
-        height: 340px !important;
+        height: 230px !important;
     }
     
     .submit-btn {
