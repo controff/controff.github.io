@@ -6,7 +6,7 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-$(".link").on("click", function (event) {
+$(".link, .buy-btn").on("click", function (event) {
     event.preventDefault();
     var id  = $(this).attr('href'),
         top = $(id).offset().top;
