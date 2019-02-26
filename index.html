@@ -8,6 +8,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="stylesheet" href="fm.revealator.jquery.css">
+    <script src='fm.revealator.jquery.js'></script>
 </head>
 <body>
     <section class='h-100-min bg'>
@@ -45,14 +47,14 @@
                 <h1 class="ssp company-title font-weight-bold">СКУД</h1>
             </div>
             <div class="col-12 mt-5 mt-lg-0 col-lg-4 text-center align-self-center">
-                <img width='350px' class='company-image' src="logo.png" alt="">
+                <img width='350px' class='revealator-zoomin revealator-duration7 revealator-once company-image' src="logo.png" alt="">
             </div>
         </div>
     </section>
     
     <section id='scheme' class='h-100-min bg-s1 py-4 d-flex'>
         <div class="container align-self-center">
-            <p class='col-12 col-lg-6 text-s1'><span class='font-weight-bold'>Только представьте, </span> все системы контроля доступа: турникеты, шлагбаумы, дверные замки, собраны воедино. <span class='font-weight-bold'>Управляются с помощью 1C.</span></p>
+            <p class='revealator-slideright revealator-once revealator-duration7 col-12 col-lg-6 text-s1'><span class='font-weight-bold'>Только представьте, </span> все системы контроля доступа: турникеты, шлагбаумы, дверные замки, собраны воедино. <span class='font-weight-bold'>Управляются с помощью 1C.</span></p>
             <div class=' text-center'>
                 <img class='img-fluid' width='1000px' src="1с.png" alt="">
             </div>
@@ -63,17 +65,17 @@
         <div class="container align-self-center">
             <h1 class='ssp mb-5 font-weight-bold'>Как это работает?</h1>
             <div class="row hw-box mx-0 mt-5">
-                <div class="col-12 col-lg"><span class="font-weight-bold">Передача данных в 1С.</span> Контроллер передает данные в 1С через интернет.</div>
-                <div class='arrow mx-auto mx-lg-2 align-self-center'>
+                <div class="revealator-slideright revealator-duration7 revealator-once col-12 col-lg"><span class="font-weight-bold">Передача данных в 1С.</span> Контроллер передает данные в 1С через интернет.</div>
+                <div class='revealator-slideright revealator-duration7 revealator-once arrow mx-auto mx-lg-2 align-self-center'>
                     <img class='d-none d-lg-block' height='45px' src="https://img.icons8.com/material/96/000000/right.png">
                     <img class='d-block my-2 my-lg-0 d-lg-none' height='45px' src="https://img.icons8.com/material/96/000000/down.png">
                 </div>
-                <div class="col-12 col-lg"><span class="font-weight-bold">Анализ полученных данных.</span> Вы можете сохранить данные в регистры 1С, сформировать табель учета рабочего времени или выполнить любой другой бизнес-процесс.</div>
-                <div class="arrow mx-auto mx-lg-2 align-self-center">
+                <div class="revealator-slideright revealator-duration7 revealator-delay10 revealator-once col-12 col-lg"><span class="font-weight-bold">Анализ полученных данных.</span> Вы можете сохранить данные в регистры 1С, сформировать табель учета рабочего времени или выполнить любой другой бизнес-процесс.</div>
+                <div class="revealator-slideright revealator-duration7 revealator-delay10 revealator-once arrow mx-auto mx-lg-2 align-self-center">
                     <img class='d-none d-lg-block' height='45px' src="https://img.icons8.com/material/96/000000/right.png">
                     <img class='d-block my-2 my-lg-0 d-lg-none' height='45px' src="https://img.icons8.com/material/96/000000/down.png">
                 </div>
-                <div class="col-12 col-lg"><span class="font-weight-bold">1С передает задание контроллеру.</span> После анализа данных 1С передает задание контроллеру на открытие/закрытие турникета (шлагбаума или другого устройства). Также есть возможность отправлять задание контроллеру после нажатия кнопки в 1С.</div>
+                <div class="revealator-slideright revealator-duration7 revealator-delay20 revealator-once col-12 col-lg"><span class="font-weight-bold">1С передает задание контроллеру.</span> После анализа данных 1С передает задание контроллеру на открытие/закрытие турникета (шлагбаума или другого устройства). Также есть возможность отправлять задание контроллеру после нажатия кнопки в 1С.</div>
             </div>
         </div>
     </section>
@@ -81,31 +83,34 @@
         <div class="container align-self-center">
             <h1 class='ssp mb-5 font-weight-bold'></h1>
             <div class="ssp mx-0 mt-5">
-                <div class='row col-12'>
-                    <div class='col-6'>
+                <div class='row mx-auto col-12'>
+                    <div class='col-7'>
                         <h3 class="fw-600">Терминал оплаты</h3>
-                        <p class='mt-3 opacity'>Аппаратно-программный комплекс, обеспечивающий приём платежей от физических лиц в режиме самообслуживания.</p>
+                        <p class='mt-2 mb-4 opacity'>Аппаратно-программный комплекс, обеспечивающий приём платежей от физических лиц в режиме самообслуживания.</p>
+                        <a href="#contacts" class="buy-btn">Подходит</a>
                     </div>
-                    <div class='col-6'>
-                        <img class='img-el ml-5 mt-2' height="300px" src="term.png" alt="">
+                    <div class='col-5'>
+                        <img class='revealator-fade revealator-duration7 revealator-once img-el ml-lg-5 mt-2' height="310px" src="term.png" alt="">
                     </div>
                 </div>
-                <div class='row col-12 my-5'>
-                    <div class='col-6 text-right'>
-                        <img class='img-el mr-5 mt-2' height="300px" src="turn.png" alt="">
+                <div class='row mx-auto col-12 my-5'>
+                    <div class='col-5 text-right'>
+                        <img class='revealator-fade revealator-duration7 revealator-once img-el mr-lg-5 mt-2' height="310px" src="turn.png" alt="">
                     </div>
-                    <div class="col-6">
+                    <div class="col-7">
                         <h3 class="fw-600">Турникет</h3>
-                        <p class="mt-3 opacity">Устройство, предназначенное для ограничения прохода людей в случае, когда необходима проверка права входа и выхода для каждого проходящего.</p>
+                        <p class="mt-2 mb-4 opacity">Устройство, предназначенное для ограничения прохода людей в случае, когда необходима проверка права входа и выхода для каждого проходящего.</p>
+                        <a href="#contacts" class="buy-btn">Подходит</a>
                     </div>
                 </div>
-                <div class='row col-12'>
-                    <div class="col-6">
+                <div class='row mx-auto col-12'>
+                    <div class="col-7">
                         <h3 class="fw-600">Дверной замок</h3>
-                        <p class="mt-3 opacity">Электронный замок, который открывается и закрывается благодаря беспроводному взаимодействию со смартфоном владельца.</p>
+                        <p class="mt-2 mb-4 opacity">Электронный замок, который открывается и закрывается благодаря беспроводному взаимодействию со смартфоном владельца.</p>
+                        <a href="#contacts" class="buy-btn">Подходит</a>
                     </div>
-                    <div class="col-6">
-                        <img class='img-el ml-5 mt-2' height="300px" src="door.png" alt="">
+                    <div class="col-5">
+                        <img class='revealator-fade revealator-duration7 revealator-once img-el ml-lg-5 mt-2' height="310px" src="door.png" alt="">
                     </div>
                 </div>
             </div>
@@ -155,27 +160,27 @@
         <div class="container align-self-center">
             <h1 class='ssp mb-5 font-weight-bold'>Преимущества</h1>
             <div class="ssp mx-0 text-center hw-box row">
-                <div class="col-12 my-2 my-lg-0 mr-lg-2 col-lg">
+                <div class="revealator-slideright revealator-duration7 revealator-once col-12 my-2 my-lg-0 mr-lg-2 col-lg">
                     <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/control-panel.png">
                     <hr>
                     <p>Полный контроль над всеми системами вашего комплекса</p>
                 </div>
-                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                <div class="revealator-slideright revealator-duration7 revealator-delay2 revealator-once col-12 my-2 my-lg-0 mx-lg-2 col-lg">
                     <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/bullish.png">
                     <hr>
                     <p>Повышение привлекательности ваших услуг</p>
                 </div>
-                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                <div class="revealator-slideright revealator-duration7 revealator-delay4 revealator-once col-12 my-2 my-lg-0 mx-lg-2 col-lg">
                     <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/omnichannel.png">
                     <hr>
                     <p>Анализ ценных статистических данных</p>
                 </div>
-                <div class="col-12 my-2 my-lg-0 mx-lg-2 col-lg">
+                <div class="revealator-slideright revealator-duration7 revealator-delay6 revealator-once col-12 my-2 my-lg-0 mx-lg-2 col-lg">
                     <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/ruble.png">
                     <hr>
                     <p>Экономия средств и ресурсов</p>
                 </div>
-                <div class="col-12 my-2 my-lg-0 ml-lg-2 col-lg">
+                <div class="revealator-slideright revealator-duration7 revealator-delay8 revealator-once col-12 my-2 my-lg-0 ml-lg-2 col-lg">
                     <img width='110px' height="110px" src="https://img.icons8.com/color/350/000000/settings.png">
                     <hr>
                     <p>Эффективность работы</p>
@@ -189,18 +194,18 @@
             <small class="ssp opacity">Расширение СКУД может работать с любой конфигурацией 1С</small>
             <div class="mt-5 ssp i-box row text-center">
                 <div class="col-12 my-2 my-lg-0 col-lg">
-                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/buy.png">
-                    <h4 class="mt-4 fw-600">Приобрести</h4>
+                    <img class='custom-img-2' src="https://img.icons8.com/windows/400/000000/buy.png">
+                    <h4 class="mt-4 font-weight-bold">Приобрести</h4>
                     <p class='mt-3 opacity'>расширение СКУД для вашей программы 1С</p>
                 </div>
                 <div class="col-12 my-2 my-lg-0 col-lg">
-                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/available-updates.png">
-                    <h4 class="mt-4 fw-600">Модернизировать</h4>
-                    <p class='mt-3 opacity'>существующее оборудование вашего комплекса или приобрести новое</p>
+                    <img class='custom-img-2' src="https://img.icons8.com/windows/400/000000/available-updates.png">
+                    <h4 class="mt-4 font-weight-bold">Модернизировать</h4>
+                    <p class='mt-3 mx-auto col-12 opacity'>существующее оборудование вашего комплекса или приобрести новое</p>
                 </div>
                 <div class="col-12 my-2 my-lg-0 col-lg">
-                    <img width="140px" height="140px" src="https://img.icons8.com/windows/400/000000/settings.png">
-                    <h4 class="mt-4 fw-600">Настроить</h4>
+                    <img class='custom-img-2' src="https://img.icons8.com/windows/400/000000/settings.png">
+                    <h4 class="mt-4 font-weight-bold">Настроить</h4>
                     <p class='mt-3 opacity'>взаимодействие вашей 1С + СКУД с оборудованием</p>
                 </div>
             </div>
